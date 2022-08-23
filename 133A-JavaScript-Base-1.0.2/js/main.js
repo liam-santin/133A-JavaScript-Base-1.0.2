@@ -8,9 +8,14 @@
 (function main() {
   'use strict'; // Demande une interprétation stricte du code
 
-    let a = 'Bonjour';
-    let b = 'toto';
+    const prenom = prompt('Entre votre prénom :');
+    const nom = prompt('Entrez votre nom : ');
+    alert(`Bonjour, ${prenom} ${nom} `);
 
-    console.log(a, b);
+    const nombre1 = prompt('Entrez le premier nombre : ');
+    const nombre2 = prompt('Entrez le deuxième nombre : ');
+    const resultat = nombre1 / nombre2;
+
+    alert(`Résultat : ${resultat}`);
 }()); // Main IIFE
 
